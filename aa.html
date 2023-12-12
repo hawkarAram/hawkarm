@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+
+
+        }
+        .header{
+            background-color: rgb(36, 34, 34);
+            color: white;
+            text-align: center;
+        }
+        .sidebar{
+            background-color: rgb(57, 53, 53);
+            color: white;
+            padding-bottom: 50px;
+        }
+        .section{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 80vh;
+        }
+        .section2{
+            border-left: 1px solid gray;
+            border-right: 1px solid gray;
+            padding-right: 100px;
+        }
+        .footer{
+            background-color: rgb(46, 42, 42);
+            color: white;
+            text-align: center;
+        }
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+        }
+        td{
+            border: 1px solid black;
+        }
+        th{
+            border: 1px solid black;
+            background-color: yellow;
+        }
+        tr{
+            
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header"> <p>Header</p></div>
+        <div class="sidebar"><p>sidebar</p></div>
+        <div class="section">
+            <div>
+                <p>section1</p>
+            </div>
+            <div class="section2">
+                <p>section2</p>
+                <table>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>hawkar</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>ahmad</td>
+                        <td>50</td>
+                    </tr>
+                </table>
+            </div>
+            <div><p>section3</p></div>
+        </div>
+        <div class="footer">
+            <p>footer</p>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
